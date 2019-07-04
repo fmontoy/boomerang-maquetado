@@ -1,0 +1,31 @@
+@import 'colors';
+@import 'sizes';
+.footer {
+  align-items: center;
+  background-color: $footer-backgound-color;
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  height: $footer-height;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-contact{
+  text-transform: uppercase;
+}
+
+.footer-name {
+  text-transform: capitalize;
+}
+
+.footer-link {
+  height:60px;
+  width: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}
