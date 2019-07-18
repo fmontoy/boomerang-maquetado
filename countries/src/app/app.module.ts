@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CountryCardComponent } from './components/country-card/country-card.component';
 import { CountryListComponent } from './screens/country-list/country-list.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppComponent,
     CountryCardComponent,
     CountryListComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
