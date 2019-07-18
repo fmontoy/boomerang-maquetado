@@ -1,9 +1,6 @@
 @import 'src/scss/colors';
 
 .country-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 450px;
   width: 400px;
   box-shadow: 0px 5px 10px -2px $card-shadow;
